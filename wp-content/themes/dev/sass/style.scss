@@ -1,0 +1,26 @@
+/*
+Theme Name: UberGrid Child Theme
+Theme URI: http://demo.pukkathemes.com/ubergrid/
+Author: Pukka
+Author URI: http://pukkathemes.com
+Description: ÜBERGRID - Engaging & Responsive Wordpress Theme. Update notification available on <a href="https://www.facebook.com/PukkaThemes" target="_blank">Facebook</a>
+Version: 1.0.0
+License: Commercial
+License URI: http://themeforest.net/licenses/regular
+Tags: theme-options, post-formats, translation-ready, featured-images, photoblogging, black, gray, white, light, three-columns, left-sidebar, right-sidebar, fixed-width, custom-background, custom-colors, custom-menu, featured-image-header, sticky-post, threaded-comments
+Text Domain: pukka
+template: ubergrid
+*/
+
+@import url('../ubergrid/style.css');
+
+body {
+//  background: red!important;
+//  border-top: 3px solid #111;
+}
+
+#sidebar-top {
+  background: #111 !important;
+  padding-top: 20px;
+  border-bottom: 1px solid #d31a24;
+}
