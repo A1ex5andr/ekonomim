@@ -36,7 +36,7 @@ var AUTOPREFIXER_BROWSERS = [
 gulp.task ('sass', function() {
     var config = {};
     // development
-    config.sourceComments = 'map';
+    //config.sourceComments = 'map';
     // production
     //config.outputStyle = 'compressed';
 

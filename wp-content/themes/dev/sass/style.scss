@@ -22,5 +22,45 @@ body {
 #sidebar-top {
   background: #111 !important;
   padding-top: 20px;
-  border-bottom: 1px solid #d31a24;
+}
+
+#sidebar-bg,
+.brick,
+.widget-area > aside,
+.content-wrap {
+  box-shadow: 3px 3px 12px 0px rgba(50, 50, 50, 0.75);
+}
+
+#sidebar-bg,
+#sidebar-wrap {
+  background-color: #232323;
+}
+
+#sidebar{
+  #main-menu{
+    li a:hover{
+      color: #61BD6F;
+    }
+  }
+}
+
+// blockquotes
+.brick-meta a, .brick-meta a:visited {
+  color: #076B49;
+  font-style: normal;
+}
+
+.format-quote .entry-content,
+.brick-quote .brick-content,
+.content-wrap blockquote {
+  color: #202020;
+  font-style: normal;
+}
+
+// comments
+.content-wrap .comments-title {
+  display: none!important;
+}
+.content-wrap h3 {
+  font-size: 14px;
 }
